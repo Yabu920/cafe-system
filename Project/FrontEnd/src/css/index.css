@@ -338,3 +338,26 @@ footer{
         font-weight: 900;
     }
 }
+
+@media screen and (min-width:1200px){
+    #navi{
+        display:none;
+    }
+    .logo{
+        display:flex;
+    }
+    .logo i{
+        font-size:2.5em;
+        justify-content: center;
+        padding-top:20px;
+        
+    }
+    .logo h3{
+        font-size: 2.5em;
+        margin-left: 20px;
+        font-weight: 900;
+    }
+    .nav-link a{
+        font-size:18px;
+    }
+}
